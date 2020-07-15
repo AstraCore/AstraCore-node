@@ -13,7 +13,7 @@ A ASTRA full node for building applications and services with Node.js. A node is
     ```  
 2. Install mongo https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/  
 
-3. Install astra-bitcore https://github.com/216k155/astra-bitcore - with ZMQ !
+3. Install astra-bitcore https://github.com/AstraCore/astra-bitcore - with ZMQ !
 
     ```bash
     # with ZMQ
@@ -22,7 +22,7 @@ A ASTRA full node for building applications and services with Node.js. A node is
 4. Install astracore-node
 
     ```bash
-    npm i https://github.com/216k155/astracore-node.git#master
+    npm i https://github.com/AstraCore/astracore-node.git#master
 
     $(npm bin)/astracore-node create mynode
 
@@ -79,8 +79,8 @@ A ASTRA full node for building applications and services with Node.js. A node is
 
 There are several add-on services available to extend the functionality of Astracore:
 
-- [ASTRA Insight API](https://github.com/216k155/insight-api)
-- [ASTRA Explorer](https://github.com/216k155/astra-explorer)
+- [ASTRA Insight API](https://github.com/AstraCore/insight-api)
+- [ASTRA Explorer](https://github.com/AstraCore/astra-explorer)
 
 ## Contributing
 

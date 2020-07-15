@@ -1526,9 +1526,9 @@ astracore-lib@^0.13.19:
     lodash "=3.10.1"
     scryptsy "=2.0.0"
 
-"astracore-p2p@git://github.com/216k155/astracore-p2p#427dba833970d656a47dba12983c9d972a478191":
+"astracore-p2p@git://github.com/AstraCore/astracore-p2p#427dba833970d656a47dba12983c9d972a478191":
   version "1.1.1"
-  resolved "git://github.com/216k155/astracore-p2p#427dba833970d656a47dba12983c9d972a478191"
+  resolved "git://github.com/AstraCore/astracore-p2p#427dba833970d656a47dba12983c9d972a478191"
   dependencies:
     bloom-filter "^0.2.0"
     buffers bitpay/node-buffers#v0.1.2-bitpay

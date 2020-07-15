@@ -129,7 +129,7 @@ Edit `astracore-node.json` with something similar to:
 }
 ```
 
-**Note**: To install services [astra-insight-api](https://github.com/216k155/insight-api) and [astra-explorer](https://github.com/216k155/astra-explorer) you'll need to clone the repositories locally.
+**Note**: To install services [astra-insight-api](https://github.com/AstraCore/insight-api) and [astra-explorer](https://github.com/AstraCore/astra-explorer) you'll need to clone the repositories locally.
 
 Setup symlinks for all of the services and dependencies:
 
