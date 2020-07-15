@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var astracore = require('../lib/cli/bitcore');
+astracore();
