@@ -203,7 +203,7 @@ binary-extensions@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.1.0.tgz#30fa40c9e7fe07dbc895678cd287024dea241dd9"
 
-bindings@1.2.x, bindings@~1.2.1:
+bindings@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
 
@@ -313,12 +313,11 @@ buffer-compare@=1.0.0:
   uid "04f4c4264e0d105db2b99b786843ed64f23230d8"
   resolved "https://codeload.github.com/bitpay/node-buffers/tar.gz/04f4c4264e0d105db2b99b786843ed64f23230d8"
 
-bufferutil@~1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-1.2.1.tgz#37be5d36e1e06492221e68d474b1ac58e510cbd7"
+bufferutil@~4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-4.0.1.tgz#3a177e8e5819a1243fe16b63a199951a7ad8d4a7"
   dependencies:
-    bindings "1.2.x"
-    nan "^2.0.5"
+    node-gyp-build "~3.7.0"
 
 bytes@3.1.0:
   version "3.1.0"
@@ -1799,7 +1798,7 @@ ms@2.1.2, ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
 
-nan@^2.0.5, nan@~2.3.0:
+nan@~2.3.0:
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.3.5.tgz#822a0dc266290ce4cd3a12282ca3e7e364668a08"
 
@@ -1818,6 +1817,10 @@ negotiator@0.6.2:
 network-byte-order@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/network-byte-order/-/network-byte-order-0.2.0.tgz#6ac11bf44bf610daeddbe90a09a5c817c6e0d2b3"
+
+node-gyp-build@~3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-3.7.0.tgz#daa77a4f547b9aed3e2aac779eaf151afd60ec8d"
 
 nopt@3.x:
   version "3.0.6"
