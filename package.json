@@ -29,7 +29,7 @@
     "async": "^3.2.0",
     "astrad-rpc": "https://github.com/AstraCore/astrad-rpc.git#master",
     "astracore-lib": "https://github.com/AstraCore/astracore-lib.git#master",
-    "bitcore-lib": "^0.13.13",
+    "bitcore-lib": "^8.20.5",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
