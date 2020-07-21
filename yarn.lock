@@ -135,8 +135,8 @@ assertion-error@^1.0.1:
 
 "astrad-rpc@https://github.com/AstraCore/astrad-rpc.git#master":
   version "0.0.4"
-  uid "6f8d2ed489b4c543cbfd4bb18a04be3f059602a9"
-  resolved "https://github.com/AstraCore/astrad-rpc.git#6f8d2ed489b4c543cbfd4bb18a04be3f059602a9"
+  uid bdc19deabc844af6c13e816f0a1e1ac527dd90db
+  resolved "https://github.com/AstraCore/astrad-rpc.git#bdc19deabc844af6c13e816f0a1e1ac527dd90db"
 
 async@0.2.x:
   version "0.2.10"
