@@ -118,13 +118,13 @@ assertion-error@^1.0.1:
 
 "astracore-lib@https://github.com/AstraCore/astracore-lib.git#master":
   version "0.0.1"
-  uid "30674af4d763d539c7292687803ecf5c0a9a4acf"
-  resolved "https://github.com/AstraCore/astracore-lib.git#30674af4d763d539c7292687803ecf5c0a9a4acf"
+  uid a8f1bacd02c16b3db652e6a518e47da4daa313a2
+  resolved "https://github.com/AstraCore/astracore-lib.git#a8f1bacd02c16b3db652e6a518e47da4daa313a2"
   dependencies:
-    bn.js "=2.0.4"
+    bn.js "=5.1.2"
     bs58 "=2.0.0"
-    buffer-compare "=1.0.0"
-    elliptic "=3.0.3"
+    buffer-compare "=1.1.1"
+    elliptic "=6.5.3"
     inherits "=2.0.1"
     lodash "=3.10.1"
 
@@ -258,6 +258,10 @@ bn.js@=2.0.4, bn.js@^2.0.0:
 bn.js@=4.11.8:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
+
+bn.js@=5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.1.2.tgz#c9686902d3c9a27729f43ab10f9d79c2004da7b0"
 
 bn.js@^4.4.0:
   version "4.11.9"
@@ -660,6 +664,18 @@ elliptic@=3.0.3:
 elliptic@=6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.0.tgz#cac9af8762c85836187003c8dfe193e5e2eae5df"
+  dependencies:
+    bn.js "^4.4.0"
+    brorand "^1.0.1"
+    hash.js "^1.0.0"
+    hmac-drbg "^1.0.0"
+    inherits "^2.0.1"
+    minimalistic-assert "^1.0.0"
+    minimalistic-crypto-utils "^1.0.0"
+
+elliptic@=6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
