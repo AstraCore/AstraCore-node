@@ -33,7 +33,7 @@
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^6.0.0",
-    "errno": "^0.1.4",
+    "errno": "^0.1.7",
     "express": "^4.17.1",
     "liftoff": "^2.2.0",
     "lru-cache": "^6.0.0",
