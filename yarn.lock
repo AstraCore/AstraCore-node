@@ -247,20 +247,9 @@ bindings@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
 
-bitcore-lib@^0.14:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/bitcore-lib/-/bitcore-lib-0.14.0.tgz#21cb2359fe7b997a3b7b773eb7d7275ae37d644e"
-  dependencies:
-    bn.js "=2.0.4"
-    bs58 "=2.0.0"
-    buffer-compare "=1.0.0"
-    elliptic "=3.0.3"
-    inherits "=2.0.1"
-    lodash "=3.10.1"
-
-bitcore-lib@^8.20.5:
-  version "8.20.5"
-  resolved "https://registry.yarnpkg.com/bitcore-lib/-/bitcore-lib-8.20.5.tgz#d1903872ba3589b060e816cfbf8c3fd0be54d5dc"
+bitcore-lib@^8.17.1, bitcore-lib@^8.20.5:
+  version "8.21.0"
+  resolved "https://registry.yarnpkg.com/bitcore-lib/-/bitcore-lib-8.21.0.tgz#40db98387308f2d74fa49becaf1a4e62aadc6fa6"
   dependencies:
     bech32 "=1.1.3"
     bn.js "=4.11.8"
@@ -270,11 +259,11 @@ bitcore-lib@^8.20.5:
     inherits "=2.0.1"
     lodash "=4.17.15"
 
-bitcore-p2p@^1.1.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/bitcore-p2p/-/bitcore-p2p-1.1.2.tgz#17927c52213ddaf0cb40673332ba3395e4008b54"
+bitcore-p2p@^8.19.0:
+  version "8.19.0"
+  resolved "https://registry.yarnpkg.com/bitcore-p2p/-/bitcore-p2p-8.19.0.tgz#90b22fb74ba218823bcc92fe0334860e1e276cbf"
   dependencies:
-    bitcore-lib "^0.14"
+    bitcore-lib "^8.17.1"
     bloom-filter "^0.2.0"
     buffers "github:bitpay/node-buffers#v0.1.2-bitpay"
     socks5-client "^0.3.6"
@@ -286,10 +275,6 @@ blob@0.0.5:
 bloom-filter@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/bloom-filter/-/bloom-filter-0.2.0.tgz#84d63bbf9172d8303e64c1ff16eb9dbf33a981a3"
-
-bn.js@=2.0.4, bn.js@^2.0.0:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-2.0.4.tgz#220a7cd677f7f1bfa93627ff4193776fe7819480"
 
 bn.js@=4.11.8:
   version "4.11.8"
@@ -347,19 +332,11 @@ browser-stdout@1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/browser-stdout/-/browser-stdout-1.3.1.tgz#baa559ee14ced73452229bad7326467c61fabd60"
 
-bs58@=2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/bs58/-/bs58-2.0.0.tgz#72b713bed223a0ac518bbda0e3ce3f4817f39eb5"
-
 bs58@=4.0.1, bs58@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/bs58/-/bs58-4.0.1.tgz#be161e76c354f6f788ae4071f63f34e8c4f0a42a"
   dependencies:
     base-x "^3.0.2"
-
-buffer-compare@=1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/buffer-compare/-/buffer-compare-1.0.0.tgz#acaa7a966e98eee9fae14b31c39a5f158fb3c4a2"
 
 buffer-compare@=1.1.1:
   version "1.1.1"
@@ -673,15 +650,6 @@ ecc-jsbn@~0.1.1:
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
-
-elliptic@=3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-3.0.3.tgz#865c9b420bfbe55006b9f969f97a0d2c44966595"
-  dependencies:
-    bn.js "^2.0.0"
-    brorand "^1.0.1"
-    hash.js "^1.0.0"
-    inherits "^2.0.1"
 
 elliptic@=6.4.0:
   version "6.4.0"
@@ -1647,10 +1615,6 @@ lodash.mapvalues@^4.4.0:
 lodash.pick@^4.2.1:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
-
-lodash@=3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 lodash@=4.17.15:
   version "4.17.15"
