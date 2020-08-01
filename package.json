@@ -3,6 +3,7 @@
   "description": "Full node with extended capabilities using Astracore and Astracoin Core",
   "author": "ASTRA <admin@astracore.io>",
   "version": "0.0.7",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
   "main": "./index.js",
   "repository": "https://github.com/AstraCore/astracore-node.git",
   "homepage": "https://github.com/AstraCore/astracore-node",
