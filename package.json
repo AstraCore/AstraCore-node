@@ -1,5 +1,5 @@
 {
-  "name": "astracore-node",
+  "name": "astracore-node@0.0.7",
   "description": "Full node with extended capabilities using Astracore and Astracoin Core",
   "author": "ASTRA <admin@astracore.io>",
   "version": "0.0.7",
