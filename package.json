@@ -1,8 +1,9 @@
 {
-  "name": "astracore-node",
+  "name": "astracore-node@0.0.7",
   "description": "Full node with extended capabilities using Astracore and Astracoin Core",
   "author": "ASTRA <admin@astracore.io>",
   "version": "0.0.7",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "./index.js",
   "repository": "https://github.com/AstraCore/astracore-node.git",
   "homepage": "https://github.com/AstraCore/astracore-node",
@@ -26,40 +27,40 @@
     "astra"
   ],
   "dependencies": {
-    "async": "^1.3.0",
+    "async": "^3.2.0",
     "astrad-rpc": "https://github.com/AstraCore/astrad-rpc.git#master",
     "astracore-lib": "https://github.com/AstraCore/astracore-lib.git#master",
-    "bitcore-lib": "^0.13.13",
+    "bitcore-lib": "^8.20.5",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
-    "commander": "^2.8.1",
+    "commander": "^6.0.0",
     "errno": "^0.1.4",
-    "express": "^4.13.3",
+    "express": "^4.17.1",
     "liftoff": "^2.2.0",
-    "lru-cache": "^4.0.1",
+    "lru-cache": "^6.0.0",
     "mkdirp": "0.5.0",
-    "path-is-absolute": "^1.0.0",
-    "semver": "^5.0.1",
-    "socket.io": "^1.4.5",
-    "socket.io-client": "^1.4.5",
+    "path-is-absolute": "^2.0.0",
+    "semver": "^7.3.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
     "zmq": "^2.14.0"
   },
   "optionalDependencies": {
-    "bufferutil": "~1.2.1",
-    "utf-8-validate": "~1.2.1"
+    "bufferutil": "~4.0.1",
+    "utf-8-validate": "~5.0.2"
   },
   "devDependencies": {
-    "benchmark": "1.0.0",
+    "benchmark": "2.1.4",
     "bitcore-p2p": "^1.1.0",
     "chai": "^3.5.0",
-    "coveralls": "^2.11.9",
+    "coveralls": "^3.1.0",
     "istanbul": "^0.4.3",
-    "jshint": "^2.9.2",
+    "jshint": "^2.11.1",
     "jshint-stylish": "^2.1.0",
-    "mocha": "^2.4.5",
+    "mocha": "^8.0.1",
     "proxyquire": "^1.3.1",
-    "rimraf": "^2.4.2",
-    "sinon": "^1.15.4"
+    "rimraf": "^3.0.2",
+    "sinon": "^9.0.2"
   },
   "license": "MIT"
 }
