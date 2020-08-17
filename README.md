@@ -1,7 +1,7 @@
 Astracore Node
 ============
 
-A ASTRA full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services.
+An AstraCore full node for building applications and services with Node.js. This node is extensible and can be configured to run additional services.
 
 ## Getting Started
 
